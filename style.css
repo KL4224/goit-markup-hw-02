@@ -2,6 +2,10 @@ body {
     background-color: rgba(25, 25, 25, 0.5);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 .card {
     width: 370px;
     height: 404px;
@@ -16,4 +20,8 @@ body {
     align-items: center;
     justify-content: center;
     background-color: grey;
+}
+
+.card__text__conainer {
+    padding: 20px;
 }
