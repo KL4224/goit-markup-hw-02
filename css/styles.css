@@ -1,0 +1,76 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196f3;
+    --link-color: #ffffff;
+    --primaary-bg-color: #f5f4fa;
+}
+body {
+    background-color: #e5e5e5;
+}
+ul {
+    list-style: none;
+}
+/*новигация*/
+.header {
+    background-color: #ffffff;
+}
+.logo {
+    color: var(--accent-color);
+}
+.site-nav {
+    color: var(--primary-text-color);
+}
+.site-nav.current {
+    color: var(--accent-color);
+}
+.site-nav:hover,
+.site-nav:focus {
+    color: var(--accent-color);
+}
+.address {
+    color: var(--title-text-color);
+}
+.address:hover,
+.address:focus {
+    color: var(--accent-color);
+}
+.heading {
+    background-color: #2f303a;
+}
+.heading-title {
+    color: var(--link-color);
+}
+.sction-title {
+    color: var(--primary-text-color);
+}
+/*описание*/
+.section-text {
+    color: var(--title-text-color);
+}
+/*команда*/
+.team {
+    background-color: #f5f4fa;
+}
+.ttam-profession {
+    color: var(--title-text-color);
+}
+/*подвал*/
+.footer {
+    background-color: #2f303a;
+}
+.address-text {
+    color: var(--link-color);
+}
+.address-link {
+    color: var(--title-text-color);
+}
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--primaary-bg-color);
+}
+
+.button.primary {
+    color: var(--link-color);
+    background-color: var(--accent-color);
+}
