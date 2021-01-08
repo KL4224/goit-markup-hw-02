@@ -18,6 +18,9 @@ ul {
 .logo {
     color: var(--accent-color);
 }
+.logo-too {
+    color: var(--primary-text-color);
+}
 .site-nav {
     color: var(--primary-text-color);
 }
@@ -69,8 +72,24 @@ ul {
     color: var(--primary-text-color);
     background-color: var(--primaary-bg-color);
 }
-
+.button:hover {
+    color: var(--link-color);
+    background-color: var(--accent-color);
+}
 .button.primary {
     color: var(--link-color);
     background-color: var(--accent-color);
+}
+.logo-to {
+    color: var(--link-color);
+}
+/*карточки*/
+.card {
+    background-color: var(--link-color);
+}
+.card-title {
+    color: var(--primary-text-color);
+}
+.card-subtitle {
+    color: var(--title-text-color);
 }
