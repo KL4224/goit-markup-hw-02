@@ -4,9 +4,11 @@
   --accent-color: #2196f3;
   --link-color: #ffffff;
   --primaary-bg-color: #f5f4fa;
+  --color-backg: #e5e5e5;
+  --footer-color: #2f303a;
 }
 body {
-  background-color: #e5e5e5;
+  background-color: var(--color-backg);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -16,7 +18,7 @@ ul {
 }
 /*новигация*/
 .header {
-  background-color: #ffffff;
+  background-color: var(--link-color);
 }
 .logo {
   color: var(--accent-color);
@@ -58,7 +60,7 @@ ul {
   color: var(--accent-color);
 }
 .heading {
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 .heading-title {
   color: var(--link-color);
@@ -91,7 +93,7 @@ ul {
 }
 /*команда*/
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--primaary-bg-color);
 }
 .team-card {
   background-color: var(--link-color);
@@ -110,7 +112,7 @@ ul {
 }
 /*подвал*/
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 .accent-too {
   color: var(--link-color);
@@ -141,6 +143,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  border-color: initial;
 }
 .button:hover {
   color: var(--link-color);
