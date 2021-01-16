@@ -144,6 +144,7 @@ ul {
   font-size: 16px;
   line-height: 1.6;
   border-color: initial;
+  border-radius: 4px;
 }
 .button:hover {
   color: var(--link-color);
