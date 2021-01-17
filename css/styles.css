@@ -33,6 +33,7 @@ ul {
 }
 .site-nav {
   color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
@@ -49,6 +50,7 @@ ul {
 }
 .address {
   color: var(--title-text-color);
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
@@ -64,6 +66,7 @@ ul {
 }
 .heading-title {
   color: var(--link-color);
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 44px;
@@ -72,6 +75,7 @@ ul {
 }
 .sction-title {
   color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -79,6 +83,7 @@ ul {
 /*описание*/
 .section-text {
   color: var(--title-text-color);
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -86,6 +91,7 @@ ul {
 /*чем занимаемся*/
 .secttion-heading {
   color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16x;
@@ -100,12 +106,14 @@ ul {
 }
 .team-title {
   color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
 .team-subtitle {
   color: var(--title-text-color);
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -124,12 +132,14 @@ ul {
 }
 .address-text {
   color: var(--link-color);
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
 .address-link {
   color: var(--title-text-color);
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -139,7 +149,7 @@ ul {
 .button {
   color: var(--primary-text-color);
   background-color: var(--primaary-bg-color);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -153,6 +163,7 @@ ul {
 .button.primary {
   color: var(--link-color);
   background-color: var(--accent-color);
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.06em;
   font-weight: 400;
   font-size: 16px;
@@ -165,6 +176,7 @@ ul {
 }
 .card-title {
   color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 18px;
@@ -172,6 +184,7 @@ ul {
 }
 .card-subtitle {
   color: var(--title-text-color);
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
